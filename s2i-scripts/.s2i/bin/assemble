@@ -50,7 +50,9 @@ cp -Rf /tmp/src/*.html ./
 DATE=$(date "+%Y-%m-%d")
 echo "new page built by marisa on date ${DATE}" >> ./info2.html
 
-echo " page built on date $( date "+%YYYY-%mm-%DD)" >> ./info2.html
+DATEd=$(date "+%YYYY-%mm-%DD)
+
+echo "new date ${DATEd}" >> ./info2.html
  
 
 ######## CUSTOMIZATION ENDS HERE ############
