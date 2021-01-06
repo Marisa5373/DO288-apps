@@ -24,7 +24,7 @@ echo "Proudly served by Apache HTTP Server version $HTTPD_VERSION" >> ./info.htm
 
 
 DATE2=$( date "+%Y-%m-%d")
-echo "new page built on $DATE " >> ./info2.html
+echo "new page built on $DATE2 " >> ./info2.html
 
 
 
